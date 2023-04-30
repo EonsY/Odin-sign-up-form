@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
+    <title>Sign-up</title>
+</head>
+<body>
+    <div id="flex-container">
+        <div id="logo-sec">
+            <div id="logo-div">
+                <img src="./assets/b2dfa316581f4b4d91220b372a5b9685.png"/>
+                <h1>ATLUS</h1>
+            </div>
+        </div>
+        <div id="form-sec">
+            <div id="form-dummy-text-container">
+                <div id="form-dummy-text">
+                    <p>This is not a real online service! Scis te aliquid huiusmodi in vita debes adiuvare ut scias te intimis tuis somniis!<br>Sign up <i>now</i> to get started.</p>
+                    <p>You <i>know</i> you want to.</p>
+                </div>
+            </div>
+            <div id="form-container">
+                <div id="form-center">
+                    <p>Let's do this!</p>
+                    <form  method="get" id="form">
+                        <div class="input-divs">
+                            <label for="fname">First name</label><br>
+                            <input type="text" id="fname" name="fname" required><br>
+                        </div>
+                        <div class="input-divs">
+                            <label for="lname">Last name</label><br>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                        <div class="input-divs">
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" required><br>
+                        </div>
+                        <div class="input-divs">
+                            <label for="pnumber">Phone number</label><br>
+                            <input type="tel" id="pnumber" name="pnumber">
+                        </div>
+                        <div class="input-divs">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" required><br>
+                        </div>
+                        <div class="input-divs">
+                            <label for="c-password">Confirm password</label><br>
+                            <input type="password" id="c-password" name="c-password" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="form-submit-container">
+                <div id="form-submit-center">
+                    <button type="submit" form="form" value="Submit">Create Account</button>
+                    <p>Already have an account? <a href="" id="login-link">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
